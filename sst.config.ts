@@ -17,7 +17,7 @@ export default $config({
         ports: [{ listen: "80/http" }],
       },
       dev: {
-        command: "node --watch index.mjs",
+        command: "node --watch index.js",
       },
     });
   },
